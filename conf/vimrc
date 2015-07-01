@@ -1,0 +1,53 @@
+set incsearch "增量搜索
+set nocompatible "关闭兼容
+set wildmenu "智能补全
+set ruler "显示光标当前位置
+set number "行号显示
+set cursorline
+set cursorcolumn
+set hlsearch
+set nowrap
+
+syntax enable
+
+
+set mouse=a
+
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set textwidth=80
+set smarttab
+set smartindent
+set nobackup       "no backup files
+set nowritebackup  "only in case you don't want a backup file while editing
+set noswapfile     "no swap files
+set autochdir
+set showcmd
+
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'vim-scripts/vim-autopep8'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'nathanealkane/vim-indent-guides'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Lokaltog/vim-powerline'
+call vundle#end()
+filetype plugin indent on
+
+
+let NERDSpaceDelims = 1
+let NERDTreeHighlightCursorline=1
+let NERDTreeIgnore=[ '.pyc$', '.pyo$', '.obj$', '.o$', '.so$', '.egg$', '^.git$', '^.svn$', '^.hg$' ]
+let g:autopep8_disable_show_diff=1
+let g:solarized_termtrans=1
+let g:solarized_contrast='normal'
+let g:solarized_visibility='normal'
+set background=dark
+colorscheme solarized
