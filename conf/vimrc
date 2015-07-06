@@ -8,18 +8,19 @@ set cursorcolumn
 set hlsearch
 set nowrap
 
-syntax enable
+syntax on 
 
 
 set mouse=a
 
-set expandtab
 set tabstop=2
 set softtabstop=2
-set shiftwidth=2
-set textwidth=80
+set expandtab
 set smarttab
 set smartindent
+set autoindent
+set shiftwidth=2
+set textwidth=80
 set nobackup       "no backup files
 set nowritebackup  "only in case you don't want a backup file while editing
 set noswapfile     "no swap files
@@ -36,7 +37,6 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'nathanealkane/vim-indent-guides'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-powerline'
 call vundle#end()
 filetype plugin indent on
