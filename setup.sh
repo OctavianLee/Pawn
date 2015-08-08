@@ -8,6 +8,9 @@ brew install wget
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 rm get-pip.py
+# config pip
+mkdir ~/.pip
+cp conf/pip.conf ~/.pip/pip.conf
 
 # install zsh
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
