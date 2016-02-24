@@ -15,8 +15,8 @@ cp conf/pip.conf ~/.pip/pip.conf
 # install zsh
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
-# install vitualenv
-sudo pip install vitualenv
+# install virtualenv
+sudo pip install virtualenv
 
 # config github account
 brew intall git
