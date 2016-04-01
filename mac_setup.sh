@@ -3,6 +3,7 @@
 # install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install pypy
 # install pip
 brew install wget
 wget https://bootstrap.pypa.io/get-pip.py
@@ -13,6 +14,7 @@ mkdir ~/.pip
 cp conf/pip.conf ~/.pip/pip.conf
 
 # install zsh
+brew intall zsh
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
 # install virtualenv

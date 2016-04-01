@@ -78,5 +78,5 @@ let g:autopep8_disable_show_diff=1
 let g:solarized_termtrans=2
 let g:solarized_contrast='normal'
 let g:solarized_visibility='normal'
-colorscheme solarized
 set background=dark
+colorscheme solarized
