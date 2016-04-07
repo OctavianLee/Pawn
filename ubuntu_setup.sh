@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get install -y zsh, git, pypy, vim
+sudo apt-get install -y zsh git pypy vim
 
 # install pip
 wget https://bootstrap.pypa.io/get-pip.py
